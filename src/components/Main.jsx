@@ -31,17 +31,19 @@ export default function Main() {
                 />
             </section>
 
-            <section className="social-media-section">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-            </section>
+            <div className="info-section">
+                <section className="social-media-section">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </section>
 
-            <section className="copyright-section">
-                <p className="copyright">
-                    &copy; Copyright Ping. All rights reserved.
-                </p>
-            </section>
+                <section className="copyright-section">
+                    <p className="copyright">
+                        &copy; Copyright Ping. All rights reserved.
+                    </p>
+                </section>
+            </div>
         </div>
     );
 }
