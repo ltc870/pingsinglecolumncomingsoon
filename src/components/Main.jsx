@@ -1,9 +1,47 @@
 export default function Main() {
     return (
-        <main>
-            <img src="src/images/logo.svg" alt="logo" />
-            We are launching soon! Subscribe and get notified Notify Me &copy;
-            Copyright Ping. All rights reserved.
-        </main>
+        <div>
+            <main className="main-container">
+                <img
+                    className="main-logo"
+                    src="src/images/logo.svg"
+                    alt="logo"
+                />
+                <h1 className="main-title">
+                    We are launching{" "}
+                    <span className="main-title-accent">soon!</span>
+                </h1>
+                <p className="main-text">Subscribe and get notified</p>
+
+                <form className="main-form">
+                    <input
+                        className="main-input"
+                        type="text"
+                        placeholder="Your email address..."
+                    />
+                    <button className="main-button">Notify Me</button>
+                </form>
+            </main>
+
+            <section className="image-section">
+                <img
+                    className="image"
+                    src="src/images/illustration-dashboard.png"
+                    alt="dashboard image"
+                />
+            </section>
+
+            <section className="social-media-section">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </section>
+
+            <section className="copyright-section">
+                <p className="copyright">
+                    &copy; Copyright Ping. All rights reserved.
+                </p>
+            </section>
+        </div>
     );
 }
