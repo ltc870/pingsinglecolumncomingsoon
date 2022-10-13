@@ -41,6 +41,7 @@ body {
 .main-error-msg {
   color: #FF5466;
   font-size: 0.625rem;
+  font-weight: 200;
 }
 
 .main-button {
@@ -60,6 +61,25 @@ body {
   text-align: center;
   max-width: 375px;
   width: 100%;
+}
+
+.main-logo {
+  width: 15%;
+  margin-top: 4em;
+  margin-bottom: 1.5em;
+}
+
+.main-title {
+  margin-bottom: 1em;
+}
+
+.main-text {
+  margin-bottom: 2.5em;
+}
+
+.main-error-msg {
+  font-style: italic;
+  margin-top: .5em;
 }
 
 .main-input,
@@ -83,16 +103,25 @@ body {
   border: 1.5px solid #4C7BF3;
   background-color: #4C7BF3;
   box-shadow: 0px 5px 10px 2px rgba(76, 123, 243, 0.230414);
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.main-button:hover,
+.main-button:focus {
+  cursor: pointer;
 }
 
 .image {
   width: 85%;
+  margin-bottom: 6em;
 }
 
 .social-media-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 1.5em;
 }
 
 .fa-brands {
@@ -113,6 +142,10 @@ body {
   color: #FFFFFF;
   background-color: #4C7BF3;
   cursor: pointer;
+}
+
+.copyright {
+  margin-bottom: 3em;
 }
 
 .attribution {
