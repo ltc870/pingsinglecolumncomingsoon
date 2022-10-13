@@ -1,19 +1,12 @@
 import React from "react";
 
 export default function Main() {
-    const [formData, setFormData] = React.useState({
-        email: "",
-    });
+    const [email, setEmail] = React.useState("");
 
     function handleChange(event) {
-        setFormData((prevFormData) => {
-            return {
-                ...prevFormData,
-                [event.target.name]: event.target.value,
-            };
-        });
+        setEmail(event.target.value);
     }
-    console.log(formData);
+    console.log(email);
     return (
         <div>
             <main className="main-container">
@@ -34,7 +27,7 @@ export default function Main() {
                         type="text"
                         placeholder="Your email address..."
                         name="email"
-                        value={formData.email}
+                        value={email}
                         onChange={handleChange}
                     />
                     <p className="main-error-msg">
