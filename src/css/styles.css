@@ -108,6 +108,13 @@ body {
   width: 40px;
 }
 
+.fa-brands:hover,
+.fa-brands:focus {
+  color: #FFFFFF;
+  background-color: #4C7BF3;
+  cursor: pointer;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
