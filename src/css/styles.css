@@ -99,6 +99,14 @@ body {
   text-indent: 20px;
 }
 
+.main-error-msg {
+  display: none;
+}
+
+.main-error.msg.active {
+  display: block;
+}
+
 .main-button {
   border: 1.5px solid #4C7BF3;
   background-color: #4C7BF3;
