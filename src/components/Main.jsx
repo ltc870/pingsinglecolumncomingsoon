@@ -19,6 +19,9 @@ export default function Main() {
                         type="text"
                         placeholder="Your email address..."
                     />
+                    <p className="main-error-msg">
+                        Please provide a valid email address
+                    </p>
                     <button className="main-button">Notify Me</button>
                 </form>
             </main>
