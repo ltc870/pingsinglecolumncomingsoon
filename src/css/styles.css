@@ -126,15 +126,15 @@ body {
 
 .fa-brands {
   color: #4C7BF3;
-  font-size: 1.25rem;
+  font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: .3125em;
+  margin: .4125em;
   border: solid .25px #4C7BF3;
   border-radius: 100%;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
 .fa-brands:hover,
