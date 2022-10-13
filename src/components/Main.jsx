@@ -1,4 +1,19 @@
+import React from "react";
+
 export default function Main() {
+    const [formData, setFormData] = React.useState({
+        email: "",
+    });
+
+    function handleChange(event) {
+        setFormData((prevFormData) => {
+            return {
+                ...prevFormData,
+                [event.target.name]: event.target.value,
+            };
+        });
+    }
+    console.log(formData);
     return (
         <div>
             <main className="main-container">
@@ -18,6 +33,9 @@ export default function Main() {
                         className="main-input"
                         type="text"
                         placeholder="Your email address..."
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
                     />
                     <p className="main-error-msg">
                         Please provide a valid email address
@@ -36,9 +54,9 @@ export default function Main() {
 
             <div className="info-section">
                 <section className="social-media-section">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
+                    <i className="fa-brands fa-facebook-f"></i>
+                    <i className="fa-brands fa-twitter"></i>
+                    <i className="fa-brands fa-instagram"></i>
                 </section>
 
                 <section className="copyright-section">
