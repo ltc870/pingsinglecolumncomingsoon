@@ -11,6 +11,46 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: "Libre Franklin", sans-serif
+}
+
+/* TYPOGRAPHY */
+
+.main-title {
+  font-weight: 200;
+  font-size: 1.375rem;
+  color: #969696;
+}
+
+.main-title-accent {
+  font-weight: 700;
+  color: #15202A;
+}
+
+.main-text {
+  font-weight: 300;
+  font-size: .75rem;
+  color: #15202A;
+}
+
+.main-input::placeholder {
+  color: #B8C7ED;
+  font-size: .75rem;
+}
+
+.main-error-msg {
+  color: #FF5466;
+  font-size: 0.625rem;
+}
+
+.main-button {
+  color: #FFFFFF;
+}
+
+.copyright {
+  font-size: 0.625rem;
+  font-weight: 300;
+  color: #9B9B9B;
 }
 
 .attribution {
