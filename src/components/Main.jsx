@@ -30,7 +30,7 @@ export default function Main() {
                         value={email}
                         onChange={handleChange}
                     />
-                    <p className="main-error-msg">
+                    <p id="main-error-msg" className="main-error-msg">
                         Please provide a valid email address
                     </p>
                     <button className="main-button">Notify Me</button>
