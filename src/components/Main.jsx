@@ -8,7 +8,7 @@ export default function Main() {
     }
     console.log(email);
     return (
-        <div>
+        <div className="container">
             <main className="main-container">
                 <img
                     className="main-logo"
