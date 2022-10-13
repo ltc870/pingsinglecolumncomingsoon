@@ -4,10 +4,10 @@ import Footer from "./components/Footer";
 
 function App() {
     return (
-        <div className="container">
+        <>
             <Main />
             <Footer />
-        </div>
+        </>
     );
 }
 
