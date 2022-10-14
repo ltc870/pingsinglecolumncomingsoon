@@ -23,6 +23,7 @@ export default function Main() {
 
                 <form className="main-form">
                     <input
+                        id="main-input"
                         className="main-input"
                         type="text"
                         placeholder="Your email address..."
@@ -33,7 +34,9 @@ export default function Main() {
                     <p id="main-error-msg" className="main-error-msg">
                         Please provide a valid email address
                     </p>
-                    <button className="main-button">Notify Me</button>
+                    <button id="main-button" className="main-button">
+                        Notify Me
+                    </button>
                 </form>
             </main>
 
