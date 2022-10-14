@@ -95,6 +95,10 @@ body {
   text-indent: 20px;
 }
 
+.main-input.active {
+  border-color: #FF5466;
+}
+
 .main-input:placeholder-shown {
   text-indent: 20px;
 }
