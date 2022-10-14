@@ -103,7 +103,7 @@ body {
   display: none;
 }
 
-.main-error.msg.active {
+.main-error-msg.active {
   display: block;
 }
 
