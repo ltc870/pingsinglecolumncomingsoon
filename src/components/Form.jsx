@@ -20,10 +20,12 @@ export default function Form() {
             setEmail("");
         } else {
             mainErrorMsg.classList.add("active");
+            mainInput.classList.add("active");
         }
 
         mainInput.addEventListener("input", () => {
             mainErrorMsg.classList.remove("active");
+            mainInput.classList.remove("active");
         });
     }
 
