@@ -179,6 +179,21 @@ body {
     font-size: 1.25rem;
     margin-bottom: 1rem;
   }
+
+  .main-input,
+  .main-button {
+    height: 56px;
+    border-radius: 30px;
+  }
+
+  .main-input {
+    width: 421px;
+    margin-right: 1em;
+  }
+
+  .main-button {
+    width: 150px;
+  }
 }
 
 .attribution {
