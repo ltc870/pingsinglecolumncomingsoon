@@ -160,6 +160,27 @@ body {
   margin-bottom: 3em;
 }
 
+@media (min-width: 800px) {
+  .container {
+    max-width: 1440px;
+    width: 100%;
+  }
+
+  .main-logo {
+    width: 3%;
+  }
+
+  .main-title {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+
+  .main-text {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
