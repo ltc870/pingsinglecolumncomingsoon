@@ -180,6 +180,12 @@ body {
     margin-bottom: 1rem;
   }
 
+  .main-form {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+
   .main-input,
   .main-button {
     height: 56px;
@@ -189,6 +195,11 @@ body {
   .main-input {
     width: 421px;
     margin-right: 1em;
+  }
+
+  .main-error-msg {
+    text-align: left;
+    text-indent: 20px;
   }
 
   .main-button {
