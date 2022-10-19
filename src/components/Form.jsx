@@ -31,18 +31,20 @@ export default function Form() {
 
     return (
         <form className="main-form" onSubmit={handleOnSubmit}>
-            <input
-                id="main-input"
-                className="main-input"
-                type="text"
-                placeholder="Your email address..."
-                name="email"
-                value={email}
-                onChange={handleChange}
-            />
-            <p id="main-error-msg" className="main-error-msg">
-                Please provide a valid email address
-            </p>
+            <div className="input-container">
+                <input
+                    id="main-input"
+                    className="main-input"
+                    type="text"
+                    placeholder="Your email address..."
+                    name="email"
+                    value={email}
+                    onChange={handleChange}
+                />
+                <p id="main-error-msg" className="main-error-msg">
+                    Please provide a valid email address
+                </p>
+            </div>
             <button id="main-button" className="main-button">
                 Notify Me
             </button>
