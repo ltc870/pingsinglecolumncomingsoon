@@ -184,6 +184,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: baseline;
+    margin-bottom: 2em;
   }
 
   .main-input,
@@ -204,6 +205,10 @@ body {
 
   .main-button {
     width: 150px;
+  }
+
+  .image {
+    width: 43%;
   }
 }
 
