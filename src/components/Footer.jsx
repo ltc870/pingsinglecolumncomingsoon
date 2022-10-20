@@ -9,7 +9,11 @@ export default function Footer() {
                 >
                     Frontend Mentor
                 </a>
-                . Coded by <a href="#">Lawrence Caudle</a>.
+                . Coded by{" "}
+                <a href="https://www.lawrencecaudle.com/" target="_blank">
+                    Lawrence Caudle
+                </a>
+                .
             </p>
         </footer>
     );
