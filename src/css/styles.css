@@ -193,12 +193,12 @@ body {
 
   .main-input,
   .main-button {
-    height: 3.5em;
+    height: 56px;
     border-radius: 30px;
   }
 
   .main-input {
-    width: 26.3em;
+    width: 421px;
     margin-right: 1em;
   }
 
@@ -208,7 +208,7 @@ body {
   }
 
   .main-button {
-    width: 9.4em;
+    width: 200px;
   }
 
   .image {
