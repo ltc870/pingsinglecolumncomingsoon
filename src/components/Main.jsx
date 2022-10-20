@@ -1,15 +1,11 @@
 import React from "react";
 import Form from "./Form";
 
-export default function Main() {
+export default function Main(props) {
     return (
         <div className="container">
             <main className="main-container">
-                <img
-                    className="main-logo"
-                    src="src/images/logo.svg"
-                    alt="logo"
-                />
+                <img className="main-logo" src={props.logo} alt="logo" />
                 <h1 className="main-title">
                     We are launching{" "}
                     <span className="main-title-accent">soon!</span>
@@ -22,7 +18,7 @@ export default function Main() {
             <section className="image-section">
                 <img
                     className="image"
-                    src="src/images/illustration-dashboard.png"
+                    src={props.mainImage}
                     alt="dashboard image"
                 />
             </section>
