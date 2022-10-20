@@ -226,5 +226,6 @@ body {
   }
 
   .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: #4C7BF3;
+    text-decoration: none;
   }
