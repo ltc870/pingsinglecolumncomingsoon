@@ -214,6 +214,10 @@ body {
   .image {
     width: 43%;
   }
+
+  .copyright {
+    font-size: .75rem;
+  }
 }
 
 .attribution {
