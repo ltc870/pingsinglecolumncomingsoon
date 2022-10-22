@@ -31,9 +31,9 @@ export default function Main(props) {
                 </summary>
 
                 <section className="copyright-section">
-                    <p className="copyright">
+                    <h2 className="copyright">
                         &copy; Copyright Ping. All rights reserved.
-                    </p>
+                    </h2>
                 </section>
             </details>
         </div>
