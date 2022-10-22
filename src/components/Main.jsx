@@ -3,8 +3,8 @@ import Form from "./Form";
 
 export default function Main(props) {
     return (
-        <div className="container">
-            <main className="main-container">
+        <main className="container">
+            <section className="main-container">
                 <img className="main-logo" src={props.logo} alt="logo" />
                 <h1 className="main-title">
                     We are launching{" "}
@@ -13,7 +13,7 @@ export default function Main(props) {
                 <p className="main-text">Subscribe and get notified</p>
 
                 <Form />
-            </main>
+            </section>
 
             <figure className="image-section">
                 <img
@@ -36,6 +36,6 @@ export default function Main(props) {
                     </h2>
                 </section>
             </details>
-        </div>
+        </main>
     );
 }
