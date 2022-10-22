@@ -24,11 +24,11 @@ export default function Main(props) {
             </figure>
 
             <details className="info-section">
-                <section className="social-media-section">
+                <summary className="social-media-section">
                     <i className="fa-brands fa-facebook-f"></i>
                     <i className="fa-brands fa-twitter"></i>
                     <i className="fa-brands fa-instagram"></i>
-                </section>
+                </summary>
 
                 <section className="copyright-section">
                     <p className="copyright">
