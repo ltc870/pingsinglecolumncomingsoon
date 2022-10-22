@@ -15,15 +15,15 @@ export default function Main(props) {
                 <Form />
             </main>
 
-            <section className="image-section">
+            <figure className="image-section">
                 <img
                     className="image"
                     src={props.mainImage}
                     alt="dashboard image"
                 />
-            </section>
+            </figure>
 
-            <div className="info-section">
+            <details className="info-section">
                 <section className="social-media-section">
                     <i className="fa-brands fa-facebook-f"></i>
                     <i className="fa-brands fa-twitter"></i>
@@ -35,7 +35,7 @@ export default function Main(props) {
                         &copy; Copyright Ping. All rights reserved.
                     </p>
                 </section>
-            </div>
+            </details>
         </div>
     );
 }
