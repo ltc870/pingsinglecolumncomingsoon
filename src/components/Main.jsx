@@ -23,19 +23,19 @@ export default function Main(props) {
                 />
             </figure>
 
-            <details className="info-section">
-                <summary className="social-media-section">
+            <article className="info-section">
+                <figure className="social-media-section">
                     <i className="fa-brands fa-facebook-f"></i>
                     <i className="fa-brands fa-twitter"></i>
                     <i className="fa-brands fa-instagram"></i>
-                </summary>
+                </figure>
 
                 <section className="copyright-section">
                     <h2 className="copyright">
                         &copy; Copyright Ping. All rights reserved.
                     </h2>
                 </section>
-            </details>
+            </article>
         </main>
     );
 }
